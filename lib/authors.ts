@@ -3,10 +3,10 @@
 export interface Author {
   id: string;
   name: string;
-  role: string;
-  img: string;
-  bio: string;
-  link: string;
+  role?: string;
+  img?: string;
+  bio?: string;
+  link?: string;
 }
 
 export const AUTHORS: Record<string, Author> = {
