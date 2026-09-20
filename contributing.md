@@ -29,10 +29,11 @@ To keep the codebase scalable, maintainable, and highly performant, we treat thi
 
 ## Content Contributions (MDX)
 
-If you are just looking to write a guide, add a new set of PYQs, or post an update, you don't need to touch the React code.
-1. Navigate to the `/content` directory.
-2. Create a new `.mdx` file following the existing frontmatter formatting (Title, Date, Description).
-3. Submit a PR.
+If you are looking to write an article, post a guide, or share a campus update, you don't need to touch the React code.
+
+We have a dedicated, beginner-friendly guide for this! Please check out the **[Article Writing Guide](article-writing-guide.md)** for step-by-step instructions on how to submit your `.mdx` article right from your browser, how to format it with custom components, and how to add yourself as an author.
+
+*(Note: Study materials like PYQs, notes, and syllabi are now managed through our dedicated **MyUVCE Hub App**. If you have academic materials you'd like to share, you can upload them directly from within the app!)*
 
 ---
 

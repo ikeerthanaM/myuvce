@@ -17,7 +17,7 @@ MyUVCE is an open platform built by students, for students. We highly encourage 
 * **Club Updates & Events**: Add details about upcoming hackathons, fests, and workshops.
 * **Code & UI Improvements**: If you're a developer, submit PRs to fix bugs, optimize performance, or add new components.
 
-*(Note: Study materials like notes, previous year question papers, and scheme notes have now been moved to our dedicated **MyUVCE Hub App** (`pluranode-hub` repository). Please head over there to contribute academic resources!)*
+*(Note: Study materials like notes, previous year question papers, and scheme notes have now been moved to our dedicated **MyUVCE Hub App**. If you have academic materials you'd like to share, you can upload them directly from within the app!)*
 
 For detailed instructions on how to write and format articles with our custom components, please check out our **[Article Writing Guide](article-writing-guide.md)**.
 
