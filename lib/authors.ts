@@ -49,13 +49,11 @@ export const AUTHORS: Record<string, Author> = {
     img: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlECbgEsaD7gmHarvzAbQ6Ue6wt7_P50hQi5WhF7DZIV9h6zt_hFDzc-MUuO1uUimvm8r49TaGHiFHhSHofWgjKdNkv21jmZ-T-ZoZAiPLCmpGa81LVXdYtckeQkhsdw-8Vw0O5k0PmIGrVwCVv0Fs5-R8MS22IChmI4_2keEkY1CNlACPb8ewDnhy5XCL/s400/1763832591989.jpg",
     bio: "An insightful writer focused on student welfare. She specializes in creating comprehensive guides for student accommodation and campus resources, helping fellow UVCEians transition smoothly into college life.",
     link: "https://www.linkedin.com/in/k-s-pavitra-048a81384/"
-  }
-  Keerthana: {
-    id: "Keerthana",
+  },
+  keerthana: {
+    id: "keerthana",
     name: "Keerthana M",
-    role: "CSE '30 • Author",
-    img: "llll"
-    bio: "bye"
-    link: "not yet created LinkedIn"
+    role: "CSE '30 • Author"
+  
   }
 };
