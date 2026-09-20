@@ -145,32 +145,40 @@ export default async function BlogPostPage({ params }: { params: Params }) {
             <div className="mt-12 p-8 bg-neutral-50 dark:bg-neutral-900 rounded-2xl border border-neutral-200 dark:border-neutral-800">
               <p className="text-xs font-bold uppercase tracking-wider text-neutral-500 mb-6">About the Author</p>
               <div className="flex flex-col sm:flex-row items-start sm:items-center gap-6">
-                <div className="relative w-24 h-24 flex-shrink-0">
-                  <Image
-                    src={author.img}
-                    alt={author.name}
-                    fill
-                    className="rounded-full object-cover border-4 border-white dark:border-neutral-800 shadow-sm"
-                    unoptimized={author.img.includes('googleusercontent')}
-                  />
-                </div>
+                {author.img && (
+                  <div className="relative w-24 h-24 flex-shrink-0">
+                    <Image
+                      src={author.img}
+                      alt={author.name}
+                      fill
+                      className="rounded-full object-cover border-4 border-white dark:border-neutral-800 shadow-sm"
+                      unoptimized={author.img.includes('googleusercontent')}
+                    />
+                  </div>
+                )}
                 <div className="flex-1">
                   <h3 className="text-2xl font-bold text-neutral-900 dark:text-white">{author.name}</h3>
-                  <span className="inline-block mt-1 text-sm font-medium text-orange-600 dark:text-orange-400">
-                    {author.role}
-                  </span>
-                  <p className="mt-3 text-neutral-600 dark:text-neutral-300 leading-relaxed">
-                    {author.bio}
-                  </p>
-                  <a
-                    href={author.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 mt-4 px-4 py-2 bg-neutral-900 dark:bg-white text-white dark:text-neutral-900 text-sm font-semibold rounded-lg hover:bg-neutral-800 dark:hover:bg-neutral-100 transition-colors"
-                  >
-                    <ExternalLink className="w-4 h-4" />
-                    View Profile
-                  </a>
+                  {author.role && (
+                    <span className="inline-block mt-1 text-sm font-medium text-orange-600 dark:text-orange-400">
+                      {author.role}
+                    </span>
+                  )}
+                  {author.bio && (
+                    <p className="mt-3 text-neutral-600 dark:text-neutral-300 leading-relaxed">
+                      {author.bio}
+                    </p>
+                  )}
+                  {author.link && (
+                    <a
+                      href={author.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 mt-4 px-4 py-2 bg-neutral-900 dark:bg-white text-white dark:text-neutral-900 text-sm font-semibold rounded-lg hover:bg-neutral-800 dark:hover:bg-neutral-100 transition-colors"
+                    >
+                      <ExternalLink className="w-4 h-4" />
+                      View Profile
+                    </a>
+                  )}
                 </div>
               </div>
             </div>

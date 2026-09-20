@@ -1,0 +1,246 @@
+# MyUVCE Article Writing Guide
+
+Welcome to the MyUVCE article writing guide! This document explains how you can contribute articles (blog posts, guides, etc.) to the MyUVCE platform. The articles use MDX, which allows you to write standard Markdown along with custom React components for richer content.
+
+## File Location & Naming
+
+All articles must be placed inside the `content/blog/` directory.
+
+- The file extension must be `.mdx`.
+- The filename should be kebab-cased (e.g., `my-first-article.mdx`). This filename will become the URL slug. (A **slug** is the exact text that shows up in the website's address bar. For example, if you name your file `campus-tour.mdx`, your article will be accessible at `myuvce.in/blog/campus-tour`).
+
+## Frontmatter
+
+Every article must start with a YAML frontmatter block that defines its metadata:
+
+```markdown
+---
+title: "Your Article Title Here"
+date: "YYYY-MM-DDTHH:mm:ss.sssZ"
+author: "Your Name"
+tags: ["tag1", "tag2", "tag3"]
+---
+```
+
+- **title**: The display title of your article.
+- **date**: The publication date in ISO 8601 format (`YYYY-MM-DDTHH:mm:ss.sssZ`). 
+  - `YYYY-MM-DD` is the year, month, and day (e.g., `2025-08-25`).
+  - `T` is a separator between the date and time.
+  - `HH:mm:ss.sssZ` is the time (Hours:minutes:seconds.milliseconds) ending with a `Z` which stands for Zero timezone (UTC time).
+  - Example: `2025-11-18T17:07:00.017Z`
+- **author**: Your exact name as it appears in the authors list.
+- **tags**: An array of strings representing the topics covered.
+
+## Adding Yourself as an Author
+
+Before your name can appear correctly with your picture on your article, you need to add your author details to the website's code!
+
+1. From the main page of the MyUVCE GitHub repository, open the `lib` folder and click on the `authors.ts` file.
+2. Click the pencil icon ✏️ in the top right corner of the file to edit it.
+3. Scroll down and add your details following the same format as the others. You will need:
+   - An `id` (your first name in lowercase).
+   - Your full `name`.
+   - Your `role` (e.g., `CSE '29 • Guest Author`).
+   - An `img` link (a link to your profile picture, which you can host on Imgur, Drive, or LinkedIn).
+   - A short `bio` describing who you are.
+   - A `link` to your LinkedIn or portfolio.
+4. Save (commit) your changes just like you would for an article.
+5. Once your details are in `authors.ts`, you can use your exact `name` in the `author` field of your article's frontmatter!
+
+## Writing Content
+
+You can use standard Markdown syntax for your article:
+
+```markdown
+## Heading 2
+### Heading 3
+
+**Bold text** and *italic text*.
+
+- List item 1
+- List item 2
+
+[Link text](https://example.com)
+```
+
+## Custom Components
+
+Since MDX is used, you have access to several custom React components to format your articles.
+
+### 1. Callouts
+Use the `<Callout>` component to highlight important information, tips, warnings, or notes.
+
+```tsx
+<Callout type="info" title="Did you know?">
+  This is an informational callout block.
+</Callout>
+
+<Callout type="tip" title="Pro Tip">
+  This is a tip callout block.
+</Callout>
+
+<Callout type="warning" title="Watch Out!">
+  This is a warning callout block.
+</Callout>
+```
+
+### 2. Images with Captions
+Images are automatically styled. If you add an `alt` attribute, it will be rendered as a caption below the image.
+
+```markdown
+![This is the caption that will appear below the image](/path/to/image.jpg)
+```
+
+### 3. Tables
+Tables are fully supported and styled with a clean UI.
+
+```markdown
+| Feature | Description |
+| :--- | :--- |
+| **Lab 1** | Details about Lab 1 |
+| **Lab 2** | Details about Lab 2 |
+```
+
+### 4. Accordions
+Use accordions for FAQs or collapsible content.
+
+```tsx
+<AccordionGroup>
+  <Accordion title="What is MyUVCE?">
+    MyUVCE is the digital hub for UVCE students.
+  </Accordion>
+  <Accordion title="How do I contribute?">
+    Read this guide and submit a PR!
+  </Accordion>
+</AccordionGroup>
+```
+
+### 5. Metric Cards
+Useful for showing statistics or key numbers.
+
+```tsx
+<MetricCardGroup>
+  <MetricCard title="Total Students" value="1000+" />
+  <MetricCard title="Departments" value="7" />
+</MetricCardGroup>
+```
+
+### 6. Tabs
+Use tabs to organize related content without cluttering the page.
+
+```tsx
+<Tabs tabs={['Tab 1', 'Tab 2']}>
+  <Tab index={0}>
+    Content for Tab 1
+  </Tab>
+  <Tab index={1}>
+    Content for Tab 2
+  </Tab>
+</Tabs>
+```
+
+### 7. Feature Cards
+Great for highlighting key takeaways, features, or important points in a grid format.
+
+```tsx
+<FeatureGrid>
+  <FeatureCard title="Fast" description="Loads instantly even on 2G networks." />
+  <FeatureCard title="Offline" description="Works without internet connection." />
+</FeatureGrid>
+```
+
+### 8. Team Profiles
+Useful when you want to credit a group of people, like club coordinators or project members.
+
+```tsx
+<TeamGrid>
+  <TeamProfile name="Mohammad Ayaan Khan" role="Developer" image="/path/to/image.jpg" />
+  <TeamProfile name="Gourav" role="Developer" image="/path/to/image.jpg" />
+</TeamGrid>
+```
+
+### 9. Testimonials
+Use this to show a quote from a student, alumni, or professor.
+
+```tsx
+<Testimonial 
+  quote="MyUVCE has completely changed how I find my study materials!" 
+  author="First Year Student" 
+/>
+```
+
+### 10. Countdown
+Want to hype up an upcoming college fest or hackathon? Add a countdown timer!
+
+```tsx
+<Countdown targetDate="2026-11-20T09:00:00.000Z" title="Impetus Starts In:" />
+```
+
+### 11. PG Listings
+If you're writing a guide about nearby accommodations, use these to neatly list PGs.
+
+```tsx
+<PGListingGroup>
+  <PGListing name="Sunshine PG" rent="8,000/month" type="Boys" />
+  <PGListing name="Moonlight PG" rent="9,000/month" type="Girls" />
+</PGListingGroup>
+```
+
+### 12. Code Blocks
+If you are writing a technical guide or tutorial and want to share code, just wrap your code in triple backticks. The code blocks automatically adapt to the user's light or dark theme, feature rounded corners, and have horizontal scrolling for long lines of code! Inline code can also be written using single backticks.
+
+````markdown
+Here is an example of `inline code`. And here is a code block:
+
+```javascript
+function welcome() {
+  console.log("Welcome to MyUVCE!");
+}
+```
+````
+
+### 13. Create Your Own Components!
+If you know React and feel like none of these components fit your needs, you can build your own! Simply code a new component inside the `components/ui/` folder, add it to the mapping in `lib/mdx-components-map.tsx`, and you can start using it instantly inside any `.mdx` article.
+
+## How to Submit Your Article (For Beginners!)
+
+Never heard of GitHub? Don't worry! GitHub is simply a website where all the files are stored for MyUVCE. You can add your article right from your browser without downloading any coding apps. Here is a step-by-step guide:
+
+1. **Create a GitHub Account**: Go to [github.com](https://github.com) and sign up for a free account.
+2. **Go to the Files**: Open the MyUVCE code repository on GitHub.
+3. **Navigate to the Blog Folder**: Click on the `content` folder, and then click on the `blog` folder. This is where all articles live.
+4. **Create a New File**: In the top right corner of the list of files, click the **"Add file"** button, then select **"Create new file"**.
+5. **Name Your File**: In the "Name your file..." box at the top, type the name of your article with `.mdx` at the end (for example: `my-first-college-day.mdx`). Remember to use small letters and dashes instead of spaces!
+6. **Paste Your Article**: Copy your article (with the frontmatter at the top) and paste it into the big text box.
+7. **Save (Commit) Your Changes**: Click the green **"Commit changes..."** button at the top right. A small box will pop up. Just click the green **"Propose changes"** button.
+8. **Send It to Us**: You will be taken to a new page. Click the green **"Create pull request"** button. (A "Pull Request" is just a polite way of asking the maintainers to pull your new article into the main website).
+
+That's it! The maintainers will get a notification, read your article, and publish it on the website for everyone to see.
+
+## Using VS Code (For Advanced Users)
+
+If you already know a bit about coding and want to preview your article locally before submitting, you can use an IDE (code editor) like **VS Code**.
+
+1. Download and install [VS Code](https://code.visualstudio.com/) and [Node.js](https://nodejs.org/).
+2. Open your terminal or command prompt and clone the repository:
+   ```bash
+   git clone https://github.com/mrmak419/myuvce.git
+   ```
+3. Open the folder in VS Code:
+   ```bash
+   cd myuvce
+   code .
+   ```
+4. Install the necessary packages by running this in the VS Code terminal:
+   ```bash
+   npm install
+   ```
+5. Create your new `.mdx` file inside the `content/blog/` folder.
+6. Start the local server to see your changes live:
+   ```bash
+   npm run dev
+   ```
+7. Open `http://localhost:3000` in your browser. As you type in VS Code, the website will automatically update!
+8. Once you're happy, commit your changes using Git and push a Pull Request to the repository.
+
+Happy writing!

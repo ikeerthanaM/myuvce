@@ -2,12 +2,12 @@
 
 First off, thank you for considering contributing to MyUVCE. This platform is built by students, for students. 
 
-To keep the codebase scalable, maintainable, and highly performant, we treat this repository like a professional, production-grade engineering environment. Please read these guidelines before submitting a Pull Request.
+To keep the codebase scalable, maintainable, and highly performant, this repository is treated like a professional, production-grade engineering environment. Please read these guidelines before submitting a Pull Request.
 
 ## The Engineering Mindset
 
 1. **Production-Ready Code Only:** Do not submit "hacky" workarounds. If a feature requires a hack, discuss it in an Issue first. Write clean, readable, and strongly-typed (TypeScript) code.
-2. **Mobile-First:** A massive portion of our traffic comes from mobile devices on poor cellular networks. Every UI component must be fully responsive and tested on mobile viewports.
+2. **Mobile-First:** A massive portion of the traffic comes from mobile devices on poor cellular networks. Every UI component must be fully responsive and tested on mobile viewports.
 3. **Performance is a Feature:** Do not introduce heavy client-side libraries unless absolutely necessary. Respect the Next.js App Router paradigm (Server Components by default, Client Components only when interactivity is required).
 
 ## UI & Design Rules
@@ -29,10 +29,11 @@ To keep the codebase scalable, maintainable, and highly performant, we treat thi
 
 ## Content Contributions (MDX)
 
-If you are just looking to write a guide, add a new set of PYQs, or post an update, you don't need to touch the React code.
-1. Navigate to the `/content` directory.
-2. Create a new `.mdx` file following the existing frontmatter formatting (Title, Date, Description).
-3. Submit a PR.
+If you are looking to write an article, post a guide, or share a campus update, you don't need to touch the React code.
+
+There is a dedicated, beginner-friendly guide for this! Please check out the **[Article Writing Guide](article-writing-guide.md)** for step-by-step instructions on how to submit your `.mdx` article right from your browser, how to format it with custom components, and how to add yourself as an author.
+
+*(Note: Study materials like PYQs, notes, and syllabi are now managed through the dedicated **MyUVCE Hub**. If you have academic materials you'd like to share, you can upload them directly from within the platform!)*
 
 ---
 
