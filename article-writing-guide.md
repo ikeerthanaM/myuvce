@@ -1,6 +1,6 @@
-# MYUVCE Article Writing Guide
+# MyUVCE Article Writing Guide
 
-Welcome to the MYUVCE article writing guide! This document explains how you can contribute articles (blog posts, guides, etc.) to the MYUVCE platform. Our articles use MDX, which allows you to write standard Markdown along with custom React components for richer content.
+Welcome to the MyUVCE article writing guide! This document explains how you can contribute articles (blog posts, guides, etc.) to the MyUVCE platform. Our articles use MDX, which allows you to write standard Markdown along with custom React components for richer content.
 
 ## File Location & Naming
 
@@ -35,7 +35,7 @@ tags: ["tag1", "tag2", "tag3"]
 
 Before your name can appear correctly with your picture on your article, you need to add your author details to the website's code!
 
-1. From the main page of the MYUVCE GitHub repository, open the `lib` folder and click on the `authors.ts` file.
+1. From the main page of the MyUVCE GitHub repository, open the `lib` folder and click on the `authors.ts` file.
 2. Click the pencil icon ✏️ in the top right corner of the file to edit it.
 3. Scroll down and add your details following the same format as the others. You will need:
    - An `id` (your first name in lowercase).
@@ -106,8 +106,8 @@ Use accordions for FAQs or collapsible content.
 
 ```tsx
 <AccordionGroup>
-  <Accordion title="What is MYUVCE?">
-    MYUVCE is the digital hub for UVCE students.
+  <Accordion title="What is MyUVCE?">
+    MyUVCE is the digital hub for UVCE students.
   </Accordion>
   <Accordion title="How do I contribute?">
     Read this guide and submit a PR!
@@ -164,7 +164,7 @@ Use this to show a quote from a student, alumni, or professor.
 
 ```tsx
 <Testimonial 
-  quote="MYUVCE has completely changed how I find my study materials!" 
+  quote="MyUVCE has completely changed how I find my study materials!" 
   author="First Year Student" 
 />
 ```
@@ -188,10 +188,10 @@ If you're writing a guide about nearby accommodations, use these to neatly list 
 
 ## How to Submit Your Article (For Beginners!)
 
-Never heard of GitHub? Don't worry! GitHub is simply a website where we store all the files for MYUVCE. You can add your article right from your browser without downloading any coding apps. Here is a step-by-step guide:
+Never heard of GitHub? Don't worry! GitHub is simply a website where we store all the files for MyUVCE. You can add your article right from your browser without downloading any coding apps. Here is a step-by-step guide:
 
 1. **Create a GitHub Account**: Go to [github.com](https://github.com) and sign up for a free account.
-2. **Go to Our Files**: Open the MYUVCE code repository on GitHub.
+2. **Go to Our Files**: Open the MyUVCE code repository on GitHub.
 3. **Navigate to the Blog Folder**: Click on the `content` folder, and then click on the `blog` folder. This is where all articles live.
 4. **Create a New File**: In the top right corner of the list of files, click the **"Add file"** button, then select **"Create new file"**.
 5. **Name Your File**: In the "Name your file..." box at the top, type the name of your article with `.mdx` at the end (for example: `my-first-college-day.mdx`). Remember to use small letters and dashes instead of spaces!
