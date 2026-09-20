@@ -138,7 +138,7 @@ export default async function GalleryPage() {
               <Zap className="w-5 h-5" /> Innovation Hubs
             </h3>
             <ul className="text-sm text-neutral-600 dark:text-neutral-400 leading-relaxed space-y-2 list-disc pl-4">
-              <li><strong>MARVEL:</strong> A 24/7 Makerspace for 3D printing and prototyping.</li>
+              <li><strong>MARVEL:</strong> A Makerspace for 3D printing and prototyping.</li>
               <li><strong>IEEE UVCE:</strong> Hosts massive events like KAGADA and IMPETUS.</li>
             </ul>
           </div>
