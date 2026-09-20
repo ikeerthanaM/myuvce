@@ -50,4 +50,12 @@ export const AUTHORS: Record<string, Author> = {
     bio: "An insightful writer focused on student welfare. She specializes in creating comprehensive guides for student accommodation and campus resources, helping fellow UVCEians transition smoothly into college life.",
     link: "https://www.linkedin.com/in/k-s-pavitra-048a81384/"
   }
+  Keerthana: {
+    id: "Keerthana",
+    name: "Keerthana M",
+    role: "CSE '30 • Author",
+    img: "llll"
+    bio: "bye"
+    link: "not yet created LinkedIn"
+  }
 };
