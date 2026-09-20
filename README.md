@@ -10,16 +10,16 @@ As we mapped the campus, we realized there was a bigger need for organized infor
 
 ## What You Can Contribute To
 
-MyUVCE is an open platform built by students, for students. We highly encourage anyone to contribute and help improve the hub. You can contribute to:
+MyUVCE is an open platform built by students, for students. Anyone is highly encouraged to contribute and help improve the hub. You can contribute to:
 
 * **Articles & Blog Posts**: Write about your experiences, tech trends, campus events, or guides for juniors.
-* **Campus Map Updates**: Notice a relocated lab or a renamed staff cabin? Help us keep the map accurate.
+* **Campus Map Updates**: Notice a relocated lab or a renamed staff cabin? Help keep the map accurate.
 * **Club Updates & Events**: Add details about upcoming hackathons, fests, and workshops.
 * **Code & UI Improvements**: If you're a developer, submit PRs to fix bugs, optimize performance, or add new components.
 
-*(Note: Study materials like notes, previous year question papers, and scheme notes have now been moved to our dedicated **MyUVCE Hub App**. If you have academic materials you'd like to share, you can upload them directly from within the app!)*
+*(Note: Study materials like notes, previous year question papers, and scheme notes have now been moved to the dedicated **MyUVCE Hub**. If you have academic materials you'd like to share, you can upload them directly from within the platform!)*
 
-For detailed instructions on how to write and format articles with our custom components, please check out our **[Article Writing Guide](article-writing-guide.md)**.
+For detailed instructions on how to write and format articles with the custom components, please check out the **[Article Writing Guide](article-writing-guide.md)**.
 
 ## Architecture & Tech Stack
 
@@ -66,4 +66,4 @@ npm run dev
 
 ---
 
-Built with ❤️ by the **UVCE '29 Batch**.
+Built with ❤️ by the **[MyUVCE Team](https://myuvce.in/about)**.

@@ -44,6 +44,14 @@ export const sharedMdxComponents = {
   td: (props: any) => <td className="px-4 py-3 border-b border-neutral-100 dark:border-neutral-800/50 text-neutral-700 dark:text-neutral-300" {...props} />,
   tr: (props: any) => <tr className="hover:bg-neutral-50/50 dark:hover:bg-neutral-900/30 transition-colors" {...props} />,
 
+  // Code Blocks
+  pre: (props: any) => (
+    <pre className="p-4 my-6 bg-neutral-100 dark:bg-neutral-900 text-neutral-900 dark:text-neutral-100 border border-neutral-200 dark:border-neutral-800 rounded-xl overflow-x-auto text-sm shadow-sm font-mono [&>code]:bg-transparent [&>code]:p-0 [&>code]:text-inherit" {...props} />
+  ),
+  code: (props: any) => (
+    <code className="px-1.5 py-0.5 mx-0.5 rounded-md bg-neutral-100 dark:bg-neutral-800 text-orange-600 dark:text-orange-400 font-mono text-[0.875em]" {...props} />
+  ),
+
   // Custom Image Override with Captions
   img: (props: any) => (
     <span className="flex flex-col items-center justify-center my-10">
