@@ -51,7 +51,14 @@ cd myuvce
 npm install
 ```
 
-3. **Run Development Server:**
+3. **Set up Environment Variables:**
+Copy the demo `.env.example` file to create your own `.env.local` file:
+```bash
+cp .env.example .env.local
+```
+*(If you are contributing and need actual API keys for Blogger/Gemini, reach out to the maintainers! Otherwise, dummy values will suffice to run the UI locally.)*
+
+4. **Run Development Server:**
 ```bash
 npm run dev
 ```
