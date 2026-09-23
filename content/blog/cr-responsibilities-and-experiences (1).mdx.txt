@@ -44,15 +44,12 @@ Beyond administration, CRs foster an academic culture within the class.
 
 - **Study Material Repository**: Create and maintain shared repositories of notes, previous papers, and resources
 - **Faculty Coordination**: Communicate academic concerns (pacing, difficulty, clarity) to professors
-- When being a CR, responsibilities and roles include:
 - When teacher doesn't arrive, contacting them so students don't waste or bunk the class.
 - Ask about timings of classes, being the lead in canceling and postpone/prepone classes for benefits of their peers.
 - Sending/forwarding information that they receive from COE, HOD, or faculties to the students.
 - Sending reminders and deadlines of stuff like assignments and exams(ye thoda zyada detailed hai lol)
-- But being a CR, you need to be very active online, coz sometimes time is a factor that might prove very costly , like telling that an extra class when everyone are not ready for it.
-- collecting assignments of students.
-
-
+- **Be active online** : Being a CR, you need to be very active online, coz sometimes time is a factor that might prove very costly , like telling that an extra class when everyone are not ready for it.
+- **collecting assignments of students**.
 
 ---
 
@@ -75,7 +72,7 @@ Beyond administration, CRs foster an academic culture within the class.
 
   <Accordion title="Post-Class Coordination (4 PM - 6 PM)">
     - Send circulars to class WhatsApp group
-    - Coordinate with other CRs (if your college has multiple batches)
+    - Coordinate with co -CRs... Both have the responsibility share it.
     - Handle student queries and concerns
   </Accordion>
 
@@ -97,7 +94,7 @@ Beyond administration, CRs foster an academic culture within the class.
 
 <Testimonial
   quote="Ppl may scare u saying being a CR is risky, but honestly it’s not that big of a deal. It’s mainly just about communication only"
-  author="ECE '27 CR - Semester 2"
+  author="ECE '29 CR - Semester 3 "
 />
 
 <Testimonial
@@ -107,7 +104,7 @@ Beyond administration, CRs foster an academic culture within the class.
 
 <Testimonial
   quote="Balancing CR duties with your own academics is the real challenge. You need to be organized and say 'no' to things sometimes. But time management skills I learned as a CR? That's going to help me for life."
-  author="CIVIL '28 CR - Semester 1"
+  author="CIVIL '28 CR - Semester 6"
 />
 
 ---
@@ -151,7 +148,6 @@ Beyond administration, CRs foster an academic culture within the class.
   <MetricCard title="Things to Do" value="Listen actively" />
   <MetricCard title="Things to Avoid" value="Favoritism" />
   <MetricCard title="Most Important" value="Integrity" />
-  <MetricCard title="Hardest Part" value="Saying No" />
 </MetricCardGroup>
 
 ### The Dos ✅
