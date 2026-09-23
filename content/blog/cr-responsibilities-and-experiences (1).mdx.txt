@@ -174,23 +174,12 @@ Beyond administration, CRs foster an academic culture within the class.
 
 ---
 
-## Testimonials: Why I Took This Role
-
-<TeamGrid>
-  <TeamProfile 
-    name= to be added
-</TeamGrid>
-
-
----
-
----
 
 ## FAQ: Common Questions About Being a CR
 
 <AccordionGroup>
   <Accordion title="Do I get paid or receive any benefits?">
-    No monetary benefits, but many colleges offer:
+    lol... No monetary benefits, but many colleges offer:
     - Certificate of appreciation
     - Leadership development programs
     - Priority in certain committees or opportunities
@@ -222,7 +211,6 @@ Beyond administration, CRs foster an academic culture within the class.
 
 </AccordionGroup>
 
----
 
 ---
 
