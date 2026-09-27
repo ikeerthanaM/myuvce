@@ -165,7 +165,7 @@ Overall, from my experience, being a CR is something I’ve genuinely enjoyed, a
   <MetricCard title="Most Important" value="Integrity" />
 </MetricCardGroup>
 
-![Green- Do's, Red- Don'ts, Middle one- Grey area(it's your wish to do it or not, not compulsory though)](/images/cr-limits.png)
+![Green- Do's, Red- Don'ts, Middle one- Grey area(it's your wish to do it or not, not compulsory though)](/images/cr-limits(1).png)
 
 <callout type="warning" title="Remember you can also be removed as CR if their is a genuine reason">
 If your batchments are not satisfied with your leadership. They can remove you from your position by informing it to HOD of your particular branch
