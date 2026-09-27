@@ -165,23 +165,7 @@ Overall, from my experience, being a CR is something I’ve genuinely enjoyed, a
   <MetricCard title="Most Important" value="Integrity" />
 </MetricCardGroup>
 
-### The Dos ✅
-
-- **Listen more than you speak**: Your job is to understand your class's needs, not to impose your views
-- **Be transparent**: Tell your class what's happening, what's being worked on, and what's not possible
-- **Follow up**: If someone raises a concern, get back to them with an update (even if it's negative)
-- **Be consistent**: Fair, consistent treatment builds trust
-- **Invest in relationships**: Get to know your classmates, not just as student IDs but as people
-- **Know your limits**: Understand what you can solve and when to escalate to seniors/administration
-
-### The Don'ts ❌
-
-- **Don't play favorites**: Treat every student equally, regardless of friendship
-- **Don't make promises you can't keep**: Honesty, even when disappointing, builds more trust
-- **Don't bypass the system**: Work within established channels first
-- **Don't take things personally**: Some criticism is fair feedback, not an attack on you
-- **Don't neglect your own academics**: You can't pour from an empty cup
-- **Don't forget to have fun**: Your class should enjoy being a community
+![Green- Do's, Red- Don'ts, Middle one- Grey area(it's your wish to do it or not, not compulsory though)](/images/cr-limits.png)
 
 <callout type="warning" title="Remember you can also be removed as CR if their is a genuine reason">
 If your batchments are not satisfied with your leadership. They can remove you from your position by informing it to HOD of your particular branch
@@ -242,11 +226,4 @@ You don't need experience or special qualifications to be a great CR. You just n
 - **Hustle**: Consistent effort, even when it's tedious
 
 </Callout>
-
 ---
-Can only compile little info i got by some CRs some were very busy to reply and some forgot to reply. it is not completed yet! Editors please add if I missed something and delete the wrong information, because it was done by claude and i just edited some information..also only handful of CRs responded so can't get the clear picture of how their experiences was. If you have seen them for over a year now just add.. if not leave. 
-
----
-
-
-
