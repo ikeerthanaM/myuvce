@@ -119,7 +119,7 @@ Overall, from my experience, being a CR is something I’ve genuinely enjoyed, a
 
 <Testimonial
   quote="It's fun, overwhelming, risky, responsible, interactive, hectic, challenging, and rewarding"
-     author=" - Semester "
+     author="ISE '29 CR - Semester 3"
 />
 
 ---
@@ -177,7 +177,7 @@ If your batchments are not satisfied with your leadership. They can remove you f
 
 <AccordionGroup>
   <Accordion title="Do I get paid or receive any benefits?">
-    lol... No monetary benefits, but many colleges offer:
+    lol... No monetary benefits, but college offers:
     - Certificate of appreciation
     - Leadership development programs
     - Priority in certain committees or opportunities
