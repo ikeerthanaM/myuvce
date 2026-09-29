@@ -94,12 +94,12 @@ Beyond administration, CRs foster an academic culture within the class.
 
 <Testimonial
   quote="Ppl may scare u saying being a CR is risky, but honestly it’s not that big of a deal. It’s mainly just about communication only"
-  author="ECE '29 CR - Semester 3 "
+  author="EEE '29 CR - Semester 3"
 />
 
 <Testimonial
   quote="The biggest thing is that as a CR, you should be responsible for your actions. If you make a mistake while communicating something to the class, you should own up to it instead of blaming someone else."
-  author="MECH '27 CR - Semester 4"
+  author="EEE '29 CR - Semester 3"
 />
 
 <Testimonial
@@ -113,7 +113,7 @@ Now coming to the cons, yes, there is definitely a little extra work. Sometimes 
 But gradually, you understand how everything works, things become much more manageable, and you get used to it. Eventually, it becomes a part of your routine — to the point where you might actually miss being a CR.
 And yes, sometimes being a CR does give you a few legitimate reasons to step out of class and handle CR-related work… so that's a small bonus too. 😂
 Overall, from my experience, being a CR is something I’ve genuinely enjoyed, and I’d definitely say: don’t look at it as extra burden. Look at it as an opportunity to connect, learn, explore and experience things that you might otherwise miss.."
-  author="CIVIL '28 CR - Semester 6"
+  author="Mech '29 CR - Semester 3"
 />
 
 
