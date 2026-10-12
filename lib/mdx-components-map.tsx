@@ -7,6 +7,7 @@ import { TeamGrid, TeamProfile } from '@/components/ui/TeamProfile'
 import { Testimonial } from '@/components/ui/Testimonial'
 import { Countdown } from '@/components/ui/Countdown'
 import { PGListing, PGListingGroup, PGDirectoryRenderer } from '@/components/ui/PGListing'
+import Box from "@/components/ui/Box";
 
 export const sharedMdxComponents = {
   // Custom React Components
@@ -26,6 +27,7 @@ export const sharedMdxComponents = {
   TeamGrid,
   Testimonial,
   Countdown,
+  Box,
 
   // HTML Element Overrides (Fixing Blogger Migration Styles)
   h1: (props: any) => <h1 className="text-3xl font-bold mt-8 mb-4 text-neutral-900 dark:text-white" {...props} />,
