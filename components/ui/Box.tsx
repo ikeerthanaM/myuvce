@@ -1,9 +1,9 @@
 import type { ReactNode } from "react";
 
 type BoxProps = {
-  children?: ReactNode; // the title text written between <Box> and </Box>
-  label?: string;       // small text shown under the title, e.g. ".jpg<100kb"
-  url?: string;         // optional; if empty, the box is not clickable
+  children?: ReactNode;
+  label?: string;
+  url?: string;
 };
 
 // Accepts "ilovepdf.com" or "https://ilovepdf.com" and only allows http/https
@@ -22,10 +22,11 @@ function normalizeUrl(raw?: string): string | null {
   }
 }
 
-// Sharp corners (rounded-none), grey box, dark-mode aware, shrinks to fit its text
+// Small, sharp-cornered, grey box that is only as big as its text
 const baseClasses =
-  "my-4 flex w-fit max-w-full min-w-[12rem] flex-col gap-1 rounded-none border " +
-  "border-zinc-400 bg-zinc-200 px-4 py-3 text-left text-zinc-900 transition-colors " +
+  "mx-0.5 my-0.5 inline-flex max-w-full flex-col rounded-none border px-2 py-0.5 " +
+  "align-middle text-left leading-tight transition-colors " +
+  "border-zinc-400 bg-zinc-200 text-zinc-900 " +
   "dark:border-zinc-600 dark:bg-zinc-800 dark:text-zinc-100";
 
 export default function Box({ children, label, url }: BoxProps) {
@@ -33,16 +34,15 @@ export default function Box({ children, label, url }: BoxProps) {
 
   const content = (
     <>
-      <span className="break-words font-medium">{children}</span>
+      <span className="break-words text-sm font-medium">{children}</span>
       {label && (
-        <span className="break-words text-xs text-zinc-600 dark:text-zinc-400">
+        <span className="break-words text-[11px] text-zinc-600 dark:text-zinc-400">
           {label}
         </span>
       )}
     </>
   );
 
-  // URL given: the whole box is a link that opens in a new tab
   if (href) {
     return (
       <a
@@ -56,7 +56,5 @@ export default function Box({ children, label, url }: BoxProps) {
     );
   }
 
-  // No URL: plain box, clicking does nothing
   return <div className={baseClasses}>{content}</div>;
 }
-
