@@ -6,7 +6,7 @@ type BoxProps = {
   url?: string;
 };
 
-// Accepts "ilovepdf.com" or "https://ilovepdf.com" and only allows http/https
+// Accepts https:
 function normalizeUrl(raw?: string): string | null {
   if (!raw || !raw.trim()) return null;
   const trimmed = raw.trim();
