@@ -202,9 +202,25 @@ function welcome() {
   console.log("Welcome to MyUVCE!");
 }
 ```
+
+### 14. Boxes
+
+Use `<Box>` to show a small grey label, such as a document name with its size limit. Write the text you want to show between the opening and closing tags. Add `label` to show smaller text under it, and add `url` to make the box clickable. The link opens in a new tab. If you leave out `url`, the box is only a label and clicking it does nothing.
+
+```mdx
+<Box url="https://myuvce.in/" label="MyUVCE">When clicked on box it redirects you to that website</Box>
+
+<Box label=".jpg<200kb">Signature</Box>
+```
+
+Here is how it looks inline: <Box url="ilovepdf.com" label="Pdf<200kb">Aadhar Card</Box> and <Box label=".jpg<100kb">Signature</Box>.
+
+<Callout type="tip" title="Quotes matter">
+  Put every attribute value in double quotes, and make sure every `<Box>` has a closing `</Box>`. Otherwise the page will show an error.
+</Callout>
 ````
 
-### 13. Create Your Own Components!
+### 14. Create Your Own Components!
 If you know React and feel like none of these components fit your needs, you can build your own! Simply code a new component inside the `components/ui/` folder, add it to the mapping in `lib/mdx-components-map.tsx`, and you can start using it instantly inside any `.mdx` article.
 
 ## How to Submit Your Article (For Beginners!)
