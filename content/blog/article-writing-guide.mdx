@@ -208,12 +208,12 @@ function welcome() {
 Use `<Box>` to show a small grey label, such as a document name with its size limit. Write the text you want to show between the opening and closing tags. Add `label` to show smaller text under it, and add `url` to make the box clickable. The link opens in a new tab. If you leave out `url`, the box is only a label and clicking it does nothing.
 
 ```mdx
-<Box url="https:url comes here having https:///" label="Label/title will come here"> Here comes the main title which iwill not be on the box</Box>
+when clicked on the box it will redirects to the url you put here
+<Box url="url comes here having https://" label="Label/title will come here, which will be on the box."> Here comes the main title which will not be on the box</Box>
 
+If you don't want to put any links just need a box
 <Box label=".jpg<200kb">Signature</Box>
 ``'
-  Put every attribute value in double quotes, and make sure every `<Box>` has a closing `</Box>`. Otherwise the page will show an error.
-
 
 ### 14. Create Your Own Components!
 If you know React and feel like none of these components fit your needs, you can build your own! Simply code a new component inside the `components/ui/` folder, add it to the mapping in `lib/mdx-components-map.tsx`, and you can start using it instantly inside any `.mdx` article.
